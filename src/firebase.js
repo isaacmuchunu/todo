@@ -10,13 +10,13 @@ import { getAuth } from "firebase/auth"; // Import the auth module
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBDbULFKblBx8MMvF-6xbAzSPRQXhfUEbM",
-  authDomain: "todo-react-tailwindcss.firebaseapp.com",
-  projectId: "todo-react-tailwindcss",
-  storageBucket: "todo-react-tailwindcss.appspot.com",
-  messagingSenderId: "1035719944900",
-  appId: "1:1035719944900:web:8e1e7c2d94cab6d7e5b791",
-  measurementId: "G-844MHGCLYJ",
+  apiKey: "YOUR_API_KEY", // Replace with your Firebase API Key
+  authDomain: "YOUR_AUTH_DOMAIN", // Replace with your Firebase Auth Domain
+  projectId: "YOUR_PROJECT_ID", // Replace with your Firebase Project ID
+  storageBucket: "YOUR_STORAGE_BUCKET", // Replace with your Firebase Storage Bucket
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID", // Replace with your Firebase Messaging Sender ID
+  appId: "YOUR_APP_ID", // Replace with your Firebase App ID
+  measurementId: "YOUR_MEASUREMENT_ID", // Replace with your Firebase Measurement ID (optional)
 };
 
 // Initialize Firebase
